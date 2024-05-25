@@ -118,7 +118,7 @@ A Django-based application to manage tutoring sessions, including user authentic
     [
         {
     	    "title": "Chemistry",
-   	    "date": "2024-05-05",
+   	       "date": "2024-05-05",
     	    "created_by": 1
         }
     ]
@@ -148,7 +148,7 @@ A Django-based application to manage tutoring sessions, including user authentic
     [
         {
     	    "title": "Chemistry",
-   	    "date": "2024-05-05",
+   	       "date": "2024-05-05",
     	    "created_by": 1
         }
     ]
