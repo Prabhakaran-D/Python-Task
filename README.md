@@ -68,7 +68,7 @@ A Django-based application to manage tutoring sessions, including user authentic
         "password": "password123"
     }
     ```
-
+![main](https://github.com/Prabhakaran-D/Python-Task/blob/871d1680ded8e484b9f00f1a25d9d9d7db1119a9/tutoring_system/img/Create_user.png)
 ### User Login and admin login . (for addmin login use superuser username and password) 
 
 - **Endpoint:** `/api/login/`
@@ -91,6 +91,8 @@ A Django-based application to manage tutoring sessions, including user authentic
     }
     ```
 	**by using the token from response you can access api's accordingly** 	
+![main](https://github.com/Prabhakaran-D/Python-Task/blob/871d1680ded8e484b9f00f1a25d9d9d7db1119a9/tutoring_system/img/Login_admin.png)
+![main](https://github.com/Prabhakaran-D/Python-Task/blob/871d1680ded8e484b9f00f1a25d9d9d7db1119a9/tutoring_system/img/Login_user.png)
 
 ### Create Tutoring Session
 
@@ -105,7 +107,7 @@ A Django-based application to manage tutoring sessions, including user authentic
     	"created_by": "1"
     }
     ```
-
+![main](https://github.com/Prabhakaran-D/Python-Task/blob/871d1680ded8e484b9f00f1a25d9d9d7db1119a9/tutoring_system/img/Create-session.png)
 ### List Tutoring Sessions admin
 
 - **Endpoint:** `/api/admin/list-sessions/`
@@ -121,6 +123,7 @@ A Django-based application to manage tutoring sessions, including user authentic
         }
     ]
     ```
+![main](https://github.com/Prabhakaran-D/Python-Task/blob/871d1680ded8e484b9f00f1a25d9d9d7db1119a9/tutoring_system/img/Admin_list_session.png)
 
 ### Book a Tutoring Session
 
@@ -133,6 +136,7 @@ A Django-based application to manage tutoring sessions, including user authentic
         "session_id": 1
     }
     ```
+![main](https://github.com/Prabhakaran-D/Python-Task/blob/871d1680ded8e484b9f00f1a25d9d9d7db1119a9/tutoring_system/img/User_book_session.png)
 
 ### List Tutoring Sessions user
 
@@ -149,10 +153,6 @@ A Django-based application to manage tutoring sessions, including user authentic
         }
     ]
     ```
+![main](https://github.com/Prabhakaran-D/Python-Task/blob/871d1680ded8e484b9f00f1a25d9d9d7db1119a9/tutoring_system/img/User_list_session.png)
 
-## Running Tests
 
-To run tests, use the following command:
-
-```sh
-python manage.py test
