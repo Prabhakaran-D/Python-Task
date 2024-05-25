@@ -114,7 +114,7 @@ A Django-based application to manage tutoring sessions, including user authentic
 - **Method:** `GET`
 - **Response:**
 
-    ```json
+    ```
       ```json
     {
     	"title": "Chemistry",
@@ -142,13 +142,12 @@ A Django-based application to manage tutoring sessions, including user authentic
 - **Endpoint:** `/api/user-list-sessions`
 - **Method:** `GET`
 - **Response:**
-
-    ```json
-    
+ ```json
+```
         {
     	    "title": "Chemistry",
    	       "date": "2024-05-05",
-    	    "created_by": "1"
+    	    "created_by": 1
         }
     
     ```
