@@ -115,14 +115,13 @@ A Django-based application to manage tutoring sessions, including user authentic
 - **Response:**
 
     ```json
-    
-        {
-    	    "title": "Chemistry",
-   	       "date": "2024-05-05",
-    	    "created_by": 1
-        }
-    
-    ```
+      ```json
+    {
+    	"title": "Chemistry",
+    	"date": "2024-05-05",
+    	"created_by": "1"
+    }
+  
 ![main](https://github.com/Prabhakaran-D/Python-Task/blob/871d1680ded8e484b9f00f1a25d9d9d7db1119a9/tutoring_system/img/Admin_list_session.png)
 
 ### Book a Tutoring Session
@@ -149,7 +148,7 @@ A Django-based application to manage tutoring sessions, including user authentic
         {
     	    "title": "Chemistry",
    	       "date": "2024-05-05",
-    	    "created_by": 1
+    	    "created_by": "1"
         }
     
     ```
